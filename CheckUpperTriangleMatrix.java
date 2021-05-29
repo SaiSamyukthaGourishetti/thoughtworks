@@ -5,8 +5,8 @@ public class CheckUpperTriangleMatrix
     {
         for(int row=1;row<noOfRows;row++)
             for(int col=0;col<row;col++)
-                if(matrixElements[row][col]!=0) return "No";
-            return "Yes";
+                if(matrixElements[row][col]!=0) return "no";
+            return "yes";
     }
     public static void main(String args[])
     {
