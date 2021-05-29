@@ -6,8 +6,8 @@ public class CheckLowerTriangleMatrix
     {
         for(int row=0;row<noOfRows;row++)
             for(int col=row+1;col<noOfRows;col++)
-                if(matrixElements[row][col]!=0) return "No";
-        return "Yes";
+                if(matrixElements[row][col]!=0) return "no";
+        return "yes";
     }
     public static void main(String args[])
     {
