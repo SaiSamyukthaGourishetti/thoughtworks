@@ -32,10 +32,11 @@ public class Movie {
         Movie movie4=new Movie("Notebook","Cine1 Studios");
         Movie arrayOfMovies[]={movie1,movie2,movie3,movie4};
         Movie[]pgMovies=movie1.getPG(arrayOfMovies);
+        if(pgMovies.length==0)
+            System.out.println("No movies with PG rating");
         for(Movie m:pgMovies)
             System.out.println(m.title+"-"+m.rating);
 
     }
-
 }
 
