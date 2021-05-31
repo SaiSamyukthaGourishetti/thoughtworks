@@ -31,8 +31,8 @@ public class Movie {
         Movie movie3=new Movie("Turbo","DreamWorks Animation","xxx");
         Movie movie4=new Movie("Notebook","Cine1 Studios");
         Movie arrayOfMovies[]={movie1,movie2,movie3,movie4};
-        Movie[]PGRatedMovies=movie1.getPG(arrayOfMovies);
-        for(Movie m:PGRatedMovies)
+        Movie[]pgMovies=movie1.getPG(arrayOfMovies);
+        for(Movie m:pgMovies)
             System.out.println(m.title+"-"+m.rating);
 
     }
